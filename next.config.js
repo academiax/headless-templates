@@ -8,8 +8,20 @@ const nextConfig = {
     dirs: ['app'],
   },
   images: {
-    domains: ['static.wixstatic.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'static.wixstatic.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'video.wixstatic.com',
+        pathname: '/**',
+      },
+    ],
     formats: ['image/webp'],
+    unoptimized: process.env.NETLIFY === 'true',
   },
 };
 

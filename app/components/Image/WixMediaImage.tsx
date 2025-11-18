@@ -1,3 +1,4 @@
+'use client';
 import { media as wixMedia } from '@wix/sdk';
 import Image, { ImageProps } from 'next/image';
 import { PLACEHOLDER_IMAGE } from '@app/constants';
@@ -49,6 +50,11 @@ export function WixMediaImage({
           className={`object-cover w-full ${
             !disableZoom ? 'group-hover:scale-110' : ''
           } transition duration-300 ease-in-out ${className}`}
+          unoptimized={process.env.NETLIFY === 'true'}
+          onError={(e) => {
+            console.error('Image failed to load:', imageUrl);
+            e.currentTarget.src = PLACEHOLDER_IMAGE;
+          }}
         />
       </div>
     </div>
