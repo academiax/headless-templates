@@ -13,7 +13,7 @@ const Footer = () => (
         <div className="flex flex-col sm:flex-row text-sm font-helvetica">
           <div className="basis-1/3 border-b border-white pb-4">
             <p className="mt-10">
-              Have questions about our prompt templates? We're here to help you get the most out of AI tools.
+              Have questions about our prompt templates? We&apos;re here to help you get the most out of AI tools.
             </p>
             <p className="mt-10">Template ID: AIPT-2025</p>
           </div>
