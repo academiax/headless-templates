@@ -12,8 +12,13 @@ module.exports = {
         12: '12px',
       },
       colors: {
-        'purple-site': '#8751BD',
-        'blue-site': '#2859B6',
+        'purple-site': '#9333EA',
+        'blue-site': '#3B82F6',
+        'dark-bg': '#0F172A',
+        'dark-surface': '#1E293B',
+        'dark-card': '#334155',
+        'dark-text': '#E2E8F0',
+        'dark-border': '#475569',
       },
       keyframes: {
         fade: {

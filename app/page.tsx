@@ -19,15 +19,15 @@ export default function Home() {
             EDUCATION FOR ALL
           </h1>
         </div>
-        <div className="flex flex-col sm:flex-row relative items-center bg-white mt-[-10px] sm:mt-[-55px] mx-auto max-w-xs sm:max-w-4xl border-t-4 border-blue-site font-site">
-          <h3 className="flex-1 sm:text-3xl py-4 px-8 text-center sm:text-left">
-            Take action to help us grow
+        <div className="flex flex-col sm:flex-row relative items-center bg-dark-surface mt-[-10px] sm:mt-[-55px] mx-auto max-w-xs sm:max-w-4xl border-t-4 border-purple-site font-site shadow-xl">
+          <h3 className="flex-1 sm:text-3xl py-4 px-8 text-center sm:text-left text-dark-text">
+            Discover AI Prompt Templates
           </h3>
           <a
-            href="/contact"
-            className="btn-main sm:text-2xl sm:p-8 hover:bg-purple-site w-fit"
+            href="/prompts"
+            className="btn-main sm:text-2xl sm:p-8 hover:bg-purple-700 w-fit"
           >
-            DONATE
+            EXPLORE
           </a>
         </div>
       </div>
@@ -45,19 +45,17 @@ export default function Home() {
               disableZoom={true}
             />
           </div>
-          <div className="border-y-4 border-blue-site p-8 sm:w-60 relative bg-white sm:mt-[-300px]">
-            <h3 className="text-2xl font-site">Our Initiatives</h3>
-            <p className="my-6 text-sm">
-              Our initiatives bring people together to help solve real problems
-              and evoke a positive change. Explore our initiatives and see what
-              you can do to help.
+          <div className="border-y-4 border-purple-site p-8 sm:w-60 relative bg-dark-surface sm:mt-[-300px] shadow-xl">
+            <h3 className="text-2xl font-site text-dark-text">Prompt Library</h3>
+            <p className="my-6 text-sm text-dark-text">
+              Browse our extensive collection of AI prompt templates designed to help you create better content, code, and creative works. Each prompt is carefully crafted and ready to use.
             </p>
             <a
-              href="/projects"
-              className="text-purple-site py-6 font-site"
+              href="/prompts"
+              className="text-purple-400 hover:text-purple-300 py-6 font-site transition-colors"
               data-testid={testIds.HOME_PAGE.OUR_INITIATIVES_CTA}
             >
-              Read More
+              Explore Prompts →
             </a>
           </div>
         </div>
@@ -70,18 +68,11 @@ export default function Home() {
               disableZoom={true}
             />
           </div>
-          <div className="border-y-4 border-blue-site p-8 sm:w-60 relative bg-white sm:ml-32 sm:mt-[-430px]">
-            <h3 className="text-2xl font-site">Our Mission</h3>
-            <p className="my-6 text-sm">
-              We believe that education is a human right and a powerful tool for
-              social change. We provide educational projects, learning resources
-              and mentoring programs for kids of all ages and backgrounds. We
-              aim to create a world where everyone has the opportunity to learn
-              and grow.
+          <div className="border-y-4 border-purple-site p-8 sm:w-60 relative bg-dark-surface sm:ml-32 sm:mt-[-430px] shadow-xl">
+            <h3 className="text-2xl font-site text-dark-text">Our Mission</h3>
+            <p className="my-6 text-sm text-dark-text">
+              We curate high-quality AI prompt templates to help creators, developers, and professionals unlock the full potential of AI tools. Our goal is to make AI more accessible and productive for everyone.
             </p>
-            <a href="/about" className="text-purple-site py-6 font-site">
-              Read More
-            </a>
           </div>
         </div>
       </div>
@@ -95,14 +86,13 @@ export default function Home() {
               disableZoom={true}
             />
           </div>
-          <div className="border-y-4 border-blue-site p-8 sm:w-60 relative bg-white sm:ml-44 sm:mt-[-230px]">
-            <h3 className="text-2xl font-site">Recent News</h3>
-            <p className="my-6 text-sm">
-              Get caught up on recent news and our latest achievements in the
-              world of education.
+          <div className="border-y-4 border-purple-site p-8 sm:w-60 relative bg-dark-surface sm:ml-44 sm:mt-[-230px] shadow-xl">
+            <h3 className="text-2xl font-site text-dark-text">Latest Prompts</h3>
+            <p className="my-6 text-sm text-dark-text">
+              Check out our newest prompt templates and discover innovative ways to interact with AI tools.
             </p>
-            <a href="/news" className="text-purple-site py-6 font-site">
-              Read More
+            <a href="/prompts" className="text-purple-400 hover:text-purple-300 py-6 font-site transition-colors">
+              View All →
             </a>
           </div>
         </div>
@@ -115,52 +105,47 @@ export default function Home() {
               disableZoom={true}
             />
           </div>
-          <div className="border-y-4 border-blue-site p-8 sm:w-60 relative bg-white sm:ml-32 sm:mt-[-530px]">
-            <h3 className="text-2xl font-site">Take Part</h3>
-            <p className="my-6 text-sm">
-              We welcome contributions in whatever form they come. Whether you
-              want to contribute your time as a volunteer, join us as a partner
-              or donate resources towards helping us achieve our goals, there is
-              always an opportunity to make a difference.
+          <div className="border-y-4 border-purple-site p-8 sm:w-60 relative bg-dark-surface sm:ml-32 sm:mt-[-530px] shadow-xl">
+            <h3 className="text-2xl font-site text-dark-text">Get Started</h3>
+            <p className="my-6 text-sm text-dark-text">
+              Start exploring our prompt templates today. Simply click the copy button on any prompt to use it in your favorite AI tool.
             </p>
-            <a href="/contact" className="text-purple-site py-6 font-site">
-              Read More
+            <a href="/prompts" className="text-purple-400 hover:text-purple-300 py-6 font-site transition-colors">
+              Browse Templates →
             </a>
           </div>
         </div>
       </div>
-      <h2 className="text-3xl sm:text-5xl text-center mb-10 sm:mb-20 font-site">
-        2035 in Numbers
+      <h2 className="text-3xl sm:text-5xl text-center mb-10 sm:mb-20 font-site text-dark-text">
+        Our Collection
       </h2>
       <div className="flex flex-col sm:flex-row gap-8 sm:justify-between items-center font-site">
         <div className="relative text-center sm:text-left">
           <span className="text-4xl sm:text-[200px] block sm:leading-[200px] text-purple-site">
             40K
           </span>
-          <span className="border-t-4 block sm:inline-block border-purple-site text-xl sm:text-4xl sm:absolute sm:right-0 sm:top-[190px]">
-            Dollars
+          <span className="border-t-4 block sm:inline-block border-purple-site text-xl sm:text-4xl sm:absolute sm:right-0 sm:top-[190px] text-dark-text">
+            Prompt
             <br />
-            Raised
+            Templates
           </span>
         </div>
         <div className="relative text-center sm:text-left">
           <span className="text-4xl sm:text-[200px] sm:leading-[200px] text-purple-site">
             8K
           </span>
-          <span className="border-t-4 block sm:inline-block border-purple-site text-xl sm:text-4xl sm:absolute sm:top-[50px] sm:left-[130px] bg-white">
-            Graduate
+          <span className="border-t-4 block sm:inline-block border-purple-site text-xl sm:text-4xl sm:absolute sm:top-[50px] sm:left-[130px] bg-dark-bg text-dark-text px-2">
+            Active
             <br />
-            Students
+            Users
           </span>
         </div>
         <div className="relative text-center sm:text-left">
           <span className="text-4xl sm:text-[200px] sm:leading-[200px] text-purple-site">
             120
           </span>
-          <span className="border-t-4 block sm:inline-block border-purple-site text-xl sm:text-4xl sm:absolute sm:top-[130px] sm:left-[150px] bg-white">
-            Technology
-            <br />
-            Centers
+          <span className="border-t-4 block sm:inline-block border-purple-site text-xl sm:text-4xl sm:absolute sm:top-[130px] sm:left-[150px] bg-dark-bg text-dark-text px-2">
+            Categories
           </span>
         </div>
       </div>

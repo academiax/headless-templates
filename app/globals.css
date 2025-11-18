@@ -32,22 +32,23 @@
     @apply text-white;
     @apply text-sm;
     @apply font-medium;
-    @apply bg-blue-site;
+    @apply bg-purple-site;
     @apply font-site;
-    @apply hover:bg-purple-800;
+    @apply hover:bg-purple-700;
     @apply focus:outline-none;
     @apply focus:ring-4;
-    @apply focus:ring-gray-300;
-    @apply rounded-none;
+    @apply focus:ring-purple-900;
+    @apply rounded-lg;
     @apply px-6;
     @apply py-3;
+    @apply transition-all;
   }
 
   .btn-main[disabled] {
     @apply hover:text-white;
-    @apply bg-gray-400;
-    @apply border-gray-400;
-    @apply hover:bg-gray-400;
+    @apply bg-dark-border;
+    @apply border-dark-border;
+    @apply hover:bg-dark-border;
   }
 
   .font-site {
@@ -63,8 +64,11 @@
     @apply w-full;
     @apply border-0;
     @apply border-b;
-    @apply border-blue-site;
+    @apply border-dark-border;
+    @apply bg-dark-surface;
+    @apply text-dark-text;
     @apply focus:outline-none;
+    @apply focus:border-purple-site;
     @apply mb-4;
   }
 
@@ -84,7 +88,8 @@ body {
   padding: 0;
   margin: 0;
   font: normal normal normal 18px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
-  @apply text-black;
+  @apply text-dark-text;
+  @apply bg-dark-bg;
   @apply font-helvetica;
 }
 

@@ -5,7 +5,7 @@ import testIds from '@app/utils/test-ids';
 const Header = () => (
   <>
     <header
-      className="w-full my-6 px-2 sm:px-8"
+      className="w-full my-6 px-2 sm:px-8 bg-dark-surface border-b border-dark-border"
       data-testid={testIds.LAYOUT.HEADER}
     >
       <div className="flex sm:px-6 sm:px-14 h-header sm:items-center sm:gap-4 sm:gap-8">
@@ -16,8 +16,8 @@ const Header = () => (
           >
             <Logo />
             <div>
-              <span className="block font-site">ChoosEquality</span>
-              <span className="text-xs">Education for All</span>
+              <span className="block font-site text-dark-text">AI Prompt Library</span>
+              <span className="text-xs text-purple-400">Your AI Assistant Templates</span>
             </div>
           </a>
         </h2>
