@@ -33,10 +33,7 @@ export default async function Projects() {
           data-testid={testIds.PROJECTS_PAGE.PROJECT_LIST}
         >
           {items!.map((item) => (
-            <div
-              key={item._id}
-              className="p-4 relative"
-            >
+            <div key={item._id} className="p-4 relative">
               <div className="sm:w-[370px] h-[320px] relative">
                 <WixMediaImage
                   media={item.Image}
